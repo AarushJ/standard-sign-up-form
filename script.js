@@ -4,10 +4,6 @@ const email = document.getElementById('email');
 const password = document.getElementById('password');
 const password2 = document.getElementById('password2');
 
-const emptyString = '';
-
-// show error outline and error message corresponding to input field
-
 // all sanity checks for username
 function checkUsername(input){
   const minLen = 8;
