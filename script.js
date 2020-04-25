@@ -63,7 +63,6 @@ function checkPasswords(input1, input2){
       *  password2 is required will not tell the user that both should match.
       */
      if(!checkLength(input1, minLen, maxLen)){
-       alert(1);
        showError(input1, `${getFieldName(input1)} must be between ${minLen} to ${maxLen} characters`);
      }else{
        showSuccess(input1);
